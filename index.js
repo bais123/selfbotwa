@@ -392,7 +392,7 @@ const time2 = moment().tz("Asia/Makassar").format("HH:mm:ss");
              uptime = process.uptime()            
 		     const hiya = await fetchJson('https://xinzbot-api.herokuapp.com/api/ucapan?apikey=XinzBot&timeZone=Asia/Jakarta', {method:'get'})
 		     var p = '```'
-		    const tod =`*_🍁SELFBOT FEBZ🧡_*		    
+		    const tod =`*_BaisBotz_*		    
 ${p}👋${ucapanWaktu}kak ${pushname}${p}		    
 ${p}🔑Prefix : ${prefix}${p}
 ${p}⏳Runtime : ${kyun(uptime)}${p}`
@@ -402,7 +402,7 @@ ${p}📚${prefix}nulis <text>${p}
 ${p}🍁${prefix}play <query>${p}
 ${p}🔎${prefix}wiki <query>${p}
 ${p}🍂${prefix}quotesharian${p}
-${p}📥️${prefix}tiktokdl <link>${p}
+${p}📥️${prefix}tiktok <link>${p}
 ${p}🖼️${prefix}pinterest <query>${p}
 ${p}👻${prefix}sticker <replyimg>${p}
 ${p}️💌${prefix}imgsearch <query>${p}
@@ -424,7 +424,7 @@ ${p}🤖${prefix}simi <text>${p}
 » ᴋᴀʜᴢ ʙᴏᴛ
 » ʜᴏsʜɪᴢᴏʀᴀ
 
-*_©ғᴇʙᴢsᴇʟғʙᴏᴛ_*
+*_©B-Botz_*
 `           
            but = [
           { buttonId: `${prefix}owner1`, buttonText: { displayText: 'creator' }, type: 1 },
